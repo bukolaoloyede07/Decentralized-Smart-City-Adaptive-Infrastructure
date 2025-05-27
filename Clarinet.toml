@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/infrastructure-verification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.resilience-measurement]
+path = 'contracts/resilience-measurement.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
